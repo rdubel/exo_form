@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+
+form {
+    margin-left: 2em;
+}
+
+.form1 label {
+    display: block;
+    font-weight: bold;
+    color: rgb(71, 70, 71);
+    margin-bottom: 0.5em;
+}
+
+span {
+    color: red;
+    margin-left: 0.5em;
+}
+
+.form1 input {
+    margin-bottom: 0.5em;
+    display: block;
+    border-radius: 0px;
+}
