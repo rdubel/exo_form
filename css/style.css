@@ -1,0 +1,48 @@
+* {
+    font-family: sans-serif;
+}
+
+form {
+    margin-left: 2em;
+    width: 60%;
+}
+
+.form1 label {
+    display: block;
+    font-weight: bold;
+    color: rgb(71, 70, 71);
+    margin-bottom: 0.5em;
+}
+
+span {
+    color: red;
+    margin-left: 0.5em;
+}
+
+.form1 input {
+    margin-bottom: 0.5em;
+    border-radius: 0px;
+    border-style: solid;
+    width: 30.25%;
+}
+
+#mail {
+  width: 62%;
+}
+
+.subject {
+  border-radius: 0;
+  background-color: rgb(202, 200, 204);
+  width: 62.5%;
+  border-style: none;
+  padding: 0.5em;
+}
+
+#submitbtn {
+  display: block;
+  background-color: rgb(105, 170, 223);
+  color: white;
+  border-style: none;
+  padding: 0.5em;
+  margin-top: 1em;
+}

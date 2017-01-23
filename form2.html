@@ -8,21 +8,36 @@
    <body>
        <h1>Provide your information</h1>
        <form action="index.html" method="post">
+
+         <div>
            <label for="name">Name <span>*</span></label>
            <input type="text" name="name" id="name">
+         </div>
+
+         <div>
            <label for="email">Email <span>*</span></label>
            <input type="email" name="email" id="email">
+         </div>
+
+         <div>
            <label for="tel">Telephone</label>
            <input type="tel" size=1>-<input type="tel" size=1>-<input type="tel" size=1>
+         </div>
+
+         <div>
            <label for="subject">Regarding</label>
            <select class="subject" name="subject" id="subject">
-               <option>General</option>
-               <option>Contact</option>
-               <option>Bug Report</option>
+             <option>General</option>
+             <option>Contact</option>
+             <option>Bug Report</option>
            </select>
-           <label for="message">Message</label>
-           <textarea name="message" id="message"
-            rows="8" cols="30"></textarea>
+         </div>
+
+         <div id="labelmessage">
+           <label id="test" for="message">Message</label>
+           <textarea name="message" id="message" rows="8" cols="30"></textarea>
+         </div>
+
             <input type="submit" name="submit">
        </form>
    </body>

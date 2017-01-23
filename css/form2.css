@@ -3,21 +3,23 @@
 }
 
 body {
-    width: 70%;
+    width: 700px;
 }
 
 form {
-    width: 50%;
+    width: 500px;
 }
 
-form label {
+/*form label {
     display: inline-block;
     width: 30%;
     padding: 0.5em;
     text-align: left;
     clear: both;
     margin-right: 15px;
-}
+}*/
+
+
 
 
 h1 {
@@ -25,10 +27,19 @@ h1 {
     font-size: 22px;
     border-bottom: 2px solid;
     border-color: rgb(209, 209, 209);
-    width: 50%
+    width: 50%;
 }
 
 span {
     color: red;
     margin-left: 0.5em;
 }
+
+#test {
+  vertical-align: top !important;
+}
+
+label {
+  display: inline-block;
+  width: 140px;
+  }​
