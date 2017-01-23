@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+   <head>
+       <meta charset="utf-8">
+       <title>Titre de la page</title>
+       <link rel="stylesheet" href="./css/form2.css">
+   </head>
+   <body>
+       <h1>Provide your information</h1>
+       <form action="index.html" method="post">
+           <label for="name">Name <span>*</span></label>
+           <input type="text" name="name" id="name">
+           <label for="email">Email <span>*</span></label>
+           <input type="email" name="email" id="email">
+           <label for="tel">Telephone</label>
+           <input type="tel" size=1>-<input type="tel" size=1>-<input type="tel" size=1>
+           <label for="subject">Regarding</label>
+           <select class="subject" name="subject" id="subject">
+               <option>General</option>
+               <option>Contact</option>
+               <option>Bug Report</option>
+           </select>
+           <label for="message">Message</label>
+           <textarea name="message" id="message"
+            rows="8" cols="30"></textarea>
+            <input type="submit" name="submit">
+       </form>
+   </body>
+</html>

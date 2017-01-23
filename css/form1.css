@@ -35,6 +35,8 @@ span {
   background-color: rgb(202, 200, 204);
   width: 62.5%;
   border-style: none;
+  border: 0 !important;
+  -moz-appearance: none;
   padding: 0.5em;
 }
 
