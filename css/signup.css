@@ -1,0 +1,26 @@
+* {
+    font-family: serif;
+}
+
+#container {
+    width: 45%;
+}
+
+h1 {
+    background-color: rgb(58, 147, 251);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: normal;
+    padding: 1em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+span {
+    background-color: rgb(58, 147, 251);
+    color: white;
+    font-size: 15px;
+    padding-left: 33px;
+    padding-top: 1px;
+}
