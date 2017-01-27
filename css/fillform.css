@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 850px;
+
+}
+
+fieldset {
+    width: 550px;
+    height: 64px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 0;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+    background-color: #D6D6D6;
+    color: #a3a3a3;
+
+}
